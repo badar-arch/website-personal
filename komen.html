@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="logo.jpeg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum Berkomentar</title>
+    <link rel="stylesheet" href="komen.css">
+</head>
+<body>
+    <header>
+        <!-- Header Content -->
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Selamat Datang di <span>Forum Berkomentar</span></h1>
+            <h3>Diskusikan Ide Anda</h3>
+            <p>Forum ini menyediakan platform untuk berdiskusi, berbagi pendapat, dan memberikan komentar tentang berbagai topik,<br> silahkan lontarkan pertanyaan tentang saya atau apalah.</p>
+            <p> Write By Badar
+                CSS By Alex
+            </p>
+        </div>
+    </section>
+
+    <section id="forum">
+        <h2>Forum Diskusi</h2>
+
+        <!-- Formulir Set Pengguna -->
+        <form id="user-form">
+            <input type="text" id="user-name" placeholder="Masukkan nama pengguna" required>
+            <button type="button" id="submit-user-name" class="set-username-button">Set Pengguna</button>
+        </form>
+
+        <div class="comment-section">
+            <!-- Daftar komentar -->
+            <div id="comments">
+                <!-- Komentar awal (akan dihapus secara dinamis) -->
+            </div>
+            
+            <!-- Formulir untuk menambah komentar -->
+            <form id="comment-form" class="comment-form">
+                <textarea id="comment-text" placeholder="Tulis komentar Anda di sini..." required></textarea>
+                <button type="submit" class="btn">Kirim</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-icons">
+            <a href="aboutme.html" target="_blank">L</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> <!-- Menyertakan file JavaScript -->
+</body>
+</html>
